@@ -1,0 +1,17 @@
+.decorate_imgs_section {
+    max-width: 100%;
+    text-align: center;
+}
+
+.decorate_imgs_section img {
+    height: 50%;
+    width: 24.8%;
+    margin: -1px;
+}
+
+/* .decorate_imgs_section img:hover {
+    transition: all 180ms ease;
+    cursor: pointer;
+    transform: translateX(5px) translateY(-5px);
+    z-index: 2;
+} */

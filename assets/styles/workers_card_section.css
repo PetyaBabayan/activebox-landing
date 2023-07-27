@@ -1,0 +1,51 @@
+.workers_card_section {
+    display: flex;
+    justify-content: center;
+    margin-top: 70px;
+}
+
+.worker_card {
+    height: 580px;
+    width: fit-content;
+    margin-left: 30px;
+}
+
+.worker_card:first-child {
+    margin-left: 0px;
+}
+
+.name {
+    font-size: 30px;
+    margin-top: 30px;
+}
+
+.profession {
+    margin-top: 10px;
+    color: #E84545;
+}
+
+.worker_card_text {
+    width: 260px;
+    margin-top: 20px;
+    color: rgba(0, 0, 0, 0.726);
+    line-height: 20px;
+    margin-bottom: 30px;
+}
+
+.icon-facebook,
+.icon-twitter,
+.icon-linkedin2 {
+    font-size: 23px;
+    color: rgba(0, 0, 0, 0.308);
+    border: 1px solid rgba(0, 0, 0, 0.308);
+    padding: 5px;
+}
+
+.icon-facebook:hover,
+.icon-twitter:hover,
+.icon-linkedin2:hover {
+    cursor: pointer;
+    color: black;
+    transition: 180ms;
+    border: 1px solid black;
+}
